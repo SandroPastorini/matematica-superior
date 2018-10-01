@@ -1,8 +1,0 @@
-function disipador()
-  %a = hc*P/(K*S)
-  nOnes = ones(n, 1);
-  A = diag(-(2+a*h^2)*nOnes, 0)+diag(1*nOnes(1:n-1), -1)+diag(1*nOnes(1:n-1), 1);
-  %A = -(2+alfa*h^2)*diag(N).+diag(ones(N, 1), 1).+diag(ones(N, 1), -1);
-  u = T(x)-T(a)
-  u(0) = T(0)-T(a)
-endfunction
